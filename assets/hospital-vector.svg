@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="hospGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#0369A1" />
+    </linearGradient>
+    <linearGradient id="crossGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0284C7" flood-opacity="0.2" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Shield Container -->
+  <rect x="15" y="15" width="130" height="130" rx="32" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="2.5" filter="url(#softShadow)" />
+  
+  <!-- Modern Hospital Cross -->
+  <rect x="67" y="38" width="26" height="84" rx="8" fill="url(#crossGrad)" />
+  <rect x="38" y="67" width="84" height="26" rx="8" fill="url(#crossGrad)" />
+  
+  <!-- Central Pulse / Heartbeat White Detail -->
+  <path d="M48 80 L62 80 L68 68 L76 92 L84 72 L90 80 L112 80" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Small Medical Stars / Stethoscope Accent Dot -->
+  <circle cx="120" cy="40" r="5" fill="#0284C7" opacity="0.8" />
+  <circle cx="40" cy="120" r="4" fill="#0284C7" opacity="0.6" />
+</svg>

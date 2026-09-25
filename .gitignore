@@ -1,0 +1,14 @@
+# Executables & Binaries
+cloudflared.exe
+*.exe
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Scratch & temporary artifacts
+step196.json
+*.tmp

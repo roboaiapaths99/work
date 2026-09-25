@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Technula-Gaj — Headquarters &amp; Communication Hub</title>
+  <meta name="description" content="Get in touch with Technula-Gaj for enterprise SaaS deployments, K-12 STEM robotics school labs, and Dream VFX/AI Academy admissions in Faridabad, Delhi NCR.">
+  <link rel="icon" type="image/png" href="assets/favicon.png?v=3">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="Technula-Gaj Home">
+        <img src="assets/technula-lockup-transparent.png" alt="Technula-Gaj" class="brand-logo" width="168" height="42">
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link home-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="work.html" class="nav-link"><i class="fa-solid fa-briefcase"></i> Our Work</a>
+        <a href="gallery.html" class="nav-link"><i class="fa-solid fa-photo-film"></i> Gallery</a>
+        <a href="contact.html" class="nav-link active-nav nav-btn-highlight"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Toggle navigation menu">
+        <span class="menu-toggle-icon"></span>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="mobileNav" aria-label="Mobile navigation">
+      <a href="index.html" class="nav-link home-nav-link"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="work.html" class="nav-link"><i class="fa-solid fa-briefcase"></i> Our Work</a>
+      <a href="gallery.html" class="nav-link"><i class="fa-solid fa-photo-film"></i> Gallery</a>
+      <a href="contact.html" class="nav-link active-nav"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Banner -->
+    <section class="page-intro-banner">
+      <div class="container">
+        <span class="section-badge"><i class="fa-solid fa-location-dot"></i> HEADQUARTERS &amp; CONTACT HUB</span>
+        <h1 class="page-headline">Let’s Build Something Great Together</h1>
+        <p class="page-lead">
+          Connect with our engineering architects, school robotics coordinators, and academy faculty.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION WITH BALANCED SPACING (NO GAP) -->
+    <section class="section contact-section" style="padding-top: 10px; padding-bottom: 50px;">
+      <div class="container">
+        
+        <div class="contact-card-wrapper">
+          <div class="contact-header-box">
+            <h2 class="contact-main-title">Official Office &amp; Direct Support Channels</h2>
+            <p class="contact-main-desc">
+              Whether you are scheduling a software walkthrough, setting up a K-12 STEM robotics lab, or applying for VFX courses, we respond immediately.
+            </p>
+          </div>
+
+          <div class="contact-grid-layout">
+            
+            <!-- Column 1: Direct Contact Channels & Address -->
+            <div class="contact-channels-card">
+              <h3 class="channels-title">Office Location &amp; Calling</h3>
+
+              <!-- Address Block -->
+              <div class="contact-channel-item">
+                <div class="channel-icon-circle icon-red">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Corporate Headquarters</span>
+                  <strong class="channel-value" id="officeAddressText">S20, Amolik Sankalp, Sector 85, Faridabad, Haryana - 121002</strong>
+                  <div class="channel-sub-actions">
+                    <button type="button" class="action-link-btn" id="copyAddressBtn">
+                      <i class="fa-regular fa-copy"></i> Copy Address
+                    </button>
+                    <a href="https://maps.google.com/?q=Amolik+Sankalp,+Sector+85,+Faridabad,+Haryana+121002" target="_blank" rel="noopener noreferrer" class="action-link-btn">
+                      <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone Call Block -->
+              <div class="contact-channel-item">
+                <div class="channel-icon-circle icon-blue">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Direct Phone / Support</span>
+                  <strong class="channel-value">+91 99909 11093</strong>
+                  <div class="channel-sub-actions">
+                    <a href="tel:+919990911093" class="action-link-btn primary-action">
+                      <i class="fa-solid fa-phone-volume"></i> Call Now (+91 99909 11093)
+                    </a>
+                    <button type="button" class="action-link-btn" id="copyPhoneBtn">
+                      <i class="fa-regular fa-copy"></i> Copy Number
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WhatsApp Chat Block -->
+              <div class="contact-channel-item">
+                <div class="channel-icon-circle icon-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Instant WhatsApp Chat</span>
+                  <strong class="channel-value">+91 99909 11093</strong>
+                  <div class="channel-sub-actions">
+                    <a href="https://wa.me/919990911093?text=Hi%20Technula-Gaj%2C%20I%20would%20like%20to%20discuss%20software%2C%20STEM%20robotics%20kits%20or%20courses." target="_blank" rel="noopener noreferrer" class="action-link-btn whatsapp-action">
+                      <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Directly
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Official Email Block (technul@gmail.com) -->
+              <div class="contact-channel-item">
+                <div class="channel-icon-circle icon-email">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Official Email</span>
+                  <strong class="channel-value">technul@gmail.com</strong>
+                  <div class="channel-sub-actions">
+                    <a href="mailto:technul@gmail.com" class="action-link-btn">
+                      <i class="fa-solid fa-paper-plane"></i> Send Email
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Column 2: Social Media & Official Online Portals -->
+            <div class="contact-socials-card">
+              <h3 class="channels-title">Official Socials &amp; Portals</h3>
+              <p class="socials-desc">Follow our live robotics demonstrations, student work, and software updates.</p>
+
+              <div class="social-links-grid">
+                
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/technulasolution/" target="_blank" rel="noopener noreferrer" class="social-tile-btn instagram-tile">
+                  <div class="social-tile-icon"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="social-tile-info">
+                    <strong>Instagram</strong>
+                    <span>@technulasolution</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square tile-arrow"></i>
+                </a>
+
+                <!-- WhatsApp Business -->
+                <a href="https://wa.me/919990911093" target="_blank" rel="noopener noreferrer" class="social-tile-btn whatsapp-tile">
+                  <div class="social-tile-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                  <div class="social-tile-info">
+                    <strong>WhatsApp Business</strong>
+                    <span>+91 99909 11093</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square tile-arrow"></i>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/Technulasolution9" target="_blank" rel="noopener noreferrer" class="social-tile-btn facebook-tile">
+                  <div class="social-tile-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="social-tile-info">
+                    <strong>Facebook</strong>
+                    <span>Technula-Gaj Solutions</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square tile-arrow"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/company/agpk1/" target="_blank" rel="noopener noreferrer" class="social-tile-btn linkedin-tile">
+                  <div class="social-tile-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="social-tile-info">
+                    <strong>LinkedIn</strong>
+                    <span>Technula-Gaj &bull; AGPK</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square tile-arrow"></i>
+                </a>
+
+                <!-- Main Official Website -->
+                <a href="https://technula.com" target="_blank" rel="noopener noreferrer" class="social-tile-btn website-tile">
+                  <div class="social-tile-icon"><i class="fa-solid fa-globe"></i></div>
+                  <div class="social-tile-info">
+                    <strong>Official Corporate Web</strong>
+                    <span>technula.com</span>
+                  </div>
+                  <i class="fa-solid fa-arrow-up-right-from-square tile-arrow"></i>
+                </a>
+
+              </div>
+
+              <!-- Quick Demo Dispatch Banner -->
+              <a href="https://wa.me/919990911093?text=Hello%20Technula-Gaj!%20I%20would%20like%20to%20book%20a%20STEM%20Robotics%20Lab%20or%20SaaS%20walkthrough." target="_blank" rel="noopener noreferrer" class="consultation-banner" style="text-decoration:none; color:inherit; cursor:pointer;">
+                <div class="banner-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                <div>
+                  <strong>Book a School Lab or SaaS Walkthrough</strong>
+                  <p>Speak with our lead engineers and curriculum directors today.</p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Notification for Copy Actions -->
+  <div class="toast-popup" id="toastNotice" role="status" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/technula-lockup-transparent.png" alt="Technula-Gaj" class="footer-logo" width="140" height="35">
+        <p class="footer-divisions">Enterprise SaaS • STEM Robotics Education • Dream VFX Academy</p>
+        <p class="footer-addr">S20, Amolik Sankalp, Sector 85, Faridabad, Haryana - 121002</p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <strong>Pages</strong>
+          <a href="index.html">Home</a>
+          <a href="work.html">Our Work</a>
+          <a href="gallery.html">Media Gallery</a>
+          <a href="contact.html">Contact Hub</a>
+        </div>
+        <div class="footer-col">
+          <strong>Direct Links</strong>
+          <a href="https://technula.com/academy/kits" target="_blank" rel="noopener noreferrer">Hardware Kits</a>
+          <a href="https://asbcrystal.in" target="_blank" rel="noopener noreferrer">asbcrystal.in</a>
+          <a href="https://asbreports.in" target="_blank" rel="noopener noreferrer">asbreports.in</a>
+          <a href="https://technula.com/saas" target="_blank" rel="noopener noreferrer">technula.com/saas</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom-line">
+        <p class="footer-copy">&copy; 2026 Technula-Gaj. All rights reserved.</p>
+        <a href="#top" class="back-to-top">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
