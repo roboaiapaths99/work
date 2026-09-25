@@ -805,6 +805,137 @@ button {
   background: #FFFFFF;
 }
 
+/* ==========================================================================
+   Proprietary Hardware Kit Image Boxes (Zero Over / Under-fitting)
+   ========================================================================== */
+.card-image-box.kit-image-box {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  aspect-ratio: auto !important;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-box.kit-image-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform var(--transition-normal);
+}
+
+.card-image-box.kit-image-box.bg-black {
+  background: #000000 !important;
+}
+
+.card-image-box.kit-image-box.bg-dark-blue {
+  background: #090D16 !important;
+}
+
+.card-image-box.kit-image-box.bg-dark-arm {
+  background: #060D17 !important;
+}
+
+.card-image-box.kit-image-box.bg-wood-dark {
+  background: #181410 !important;
+}
+
+.card-image-box.kit-image-box.bg-light-clean {
+  background: #F8FAFC !important;
+}
+
+.card-image-box.kit-image-box.bg-white-clean {
+  background: #FFFFFF !important;
+}
+
+.card-image-box.kit-image-box.bg-gaj-navy {
+  background: #0C2038 !important;
+}
+
+/* Fit options to prevent any clipping of headers, sensors or wheels */
+.card-image-box.kit-image-box img.fit-contain {
+  object-fit: contain !important;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-image-box.kit-image-box img.fit-contain-padded {
+  object-fit: contain !important;
+  padding: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-image-box.kit-image-box img.fit-contain-gaj {
+  object-fit: contain !important;
+  padding: 4px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-image-box.kit-image-box img.fit-cover {
+  object-fit: cover !important;
+}
+
+.card-image-box.kit-image-box img.fit-cover-wedo {
+  object-fit: cover !important;
+  object-position: center 25% !important;
+}
+
+/* Dual-Image Switcher for Bear Board College Kit */
+.kit-image-toggle-bar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 4px 6px;
+  border-radius: 20px;
+  z-index: 5;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.kit-toggle-btn {
+  background: transparent;
+  border: none;
+  color: #CBD5E1;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.kit-toggle-btn:hover {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.kit-toggle-btn.active {
+  background: var(--color-blue);
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(2, 104, 178, 0.5);
+}
+
+@media (max-width: 768px) {
+  .card-image-box.kit-image-box {
+    height: 220px;
+  }
+}
+
 .custom-client-logo-box {
   display: flex;
   flex-direction: column;

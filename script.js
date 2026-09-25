@@ -217,4 +217,30 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  /* ==========================================================================
+     7. Multi-View Kit Image Switcher (e.g. Bear Board Robot / Sensors)
+     ========================================================================== */
+  const kitToggleBtns = document.querySelectorAll('.kit-toggle-btn');
+  kitToggleBtns.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const parentBox = btn.closest('.card-image-box');
+      if (!parentBox) return;
+
+      const targetImg = parentBox.querySelector('img.kit-toggle-target');
+      const newSrc = btn.getAttribute('data-img');
+      const newAlt = btn.getAttribute('data-alt');
+
+      if (targetImg && newSrc) {
+        targetImg.src = newSrc;
+        if (newAlt) targetImg.alt = newAlt;
+
+        const siblings = parentBox.querySelectorAll('.kit-toggle-btn');
+        siblings.forEach((s) => s.classList.remove('active'));
+        btn.classList.add('active');
+      }
+    });
+  });
+
 });

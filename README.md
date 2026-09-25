@@ -37,15 +37,21 @@ technulaPortfolio/
 ├── script.js        # Mobile drawer navigation & portfolio filter logic
 ├── assets/          # Logo and authentic project images
 │   ├── technula-lockup-transparent.png
+│   ├── kit-bear-board.jpg      # Bear Board College Robotics PCB Chassis
+│   ├── kit-esp32-sensors.jpg   # Red ESP32 Breadboard & Sensor Suite
+│   ├── kit-technula-gaj.png    # Technula - GAJ Junior STEM Kit (65+ Projects)
+│   ├── kit-lego-wedo.jpg       # LEGO WeDo 2.0 STEM Robotics Kit
+│   ├── kit-intro-robotics.png  # Introduction to Robotics Robo Car
+│   ├── kit-otto-ninja.png      # Otto Ninja Autonomous Biped Bot
+│   ├── kit-jetty-bot.png       # Jetty Bot Autonomous Robot Car
+│   ├── kit-smart-iot-home.png  # Smart IOT Home Automation Kit
+│   ├── kit-robo-expert.png     # Robo Expert Robotic Arm
+│   ├── work-plug-play-kit.jpg  # Modular Plug and Play STEM Kit
+│   ├── work-non-programming-kit.jpg # Non-Programmable Electronics Kit
 │   ├── work-logday.png
 │   ├── work-fitos.png
-│   ├── work-agpk.png
-│   ├── work-classroom-workshop.jpg
 │   ├── work-3d-character-car.jpg
-│   ├── work-vfx-sculpt.jpg
-│   ├── work-plug-play-kit.jpg
-│   ├── work-smart-rover.jpg
-│   └── work-robo-pet.png
+│   └── work-vfx-sculpt.jpg
 └── README.md        # Documentation and maintenance guide
 ```
 
